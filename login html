@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Online Milk Sales</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .login-form{
+        margin: auto;
+        border: 2px solid; 
+        width: 20%;
+        padding: 1%;
+        border-radius: 5px;
+        }
+        #in{
+            padding: 2%;
+            align-content: center;
+        }
+        label{
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Login to FreshMilkOnline</h1>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="cart.html">Cart</a></li>
+                <li><a href="Register.html">Register</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="login-form">
+            <center><h2>Login</h2></center>
+            <center><form id="loginForm">
+                <div id="in">
+                    <label for="username">Username:</label>
+                    <input type="text" id="username" name="username" required>
+                </div>
+                <div id="in">
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <button type="submit" class="btn">Login</button>
+            </form>
+        </center>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 FreshMilkOnline. All rights reserved.</p>
+    </footer>
+    <script src="login.js"></script>
+</body>
+</html>

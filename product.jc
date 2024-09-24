@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Products - Online Milk Sales</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Our Fresh Milk Products</h1>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="cart.html">Cart</a></li>
+                <li><a href="Register.html">Register</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="product-list">
+            <article class="product">
+                <h3>Whole Milk</h3>
+                <p>Rich and creamy whole milk.</p>
+                <button class="btn add-to-cart" data-id="1">Add to Cart</button>
+            </article>
+            <article class="product">
+                <h3>Skim Milk</h3>
+                <p>Low-fat skim milk.</p>
+                <button class="btn add-to-cart" data-id="2">Add to Cart</button>
+            </article>
+            <article class="product">
+                <h3>Curd</h3>
+                <p>Low fat-High protein.</p>
+                <button class="btn add-to-cart" data-id="3">Add to Cart</button>
+            </article>
+            <!-- More products can be added here -->
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 FreshMilkOnline. All rights reserved.</p>
+    </footer>
+    <script src="products.js"></script>
+</body>
+</html>
